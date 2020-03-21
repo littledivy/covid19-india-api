@@ -16,14 +16,15 @@
   "author": "Divy Srivastava <dj.srivastava23@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^13.9.2",
     "axios": "^0.19.2",
-    "gulp": "^4.0.2",
-    "path": "",
-    "express": "",
-    "morgan": "",
     "body-parser": "",
-    "http": "",
+    "express": "",
+    "gulp": "^4.0.2",
     "gulp-typescript": "^6.0.0-alpha.1",
+    "http": "",
+    "morgan": "",
+    "path": "",
     "typescript": "^3.8.3"
   }
 }
