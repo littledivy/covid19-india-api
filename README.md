@@ -6,6 +6,29 @@ The complete api that collects information from other apis and delivers to it to
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
+## Usage
+
+### Get latest all-India count
+
+```bash
+GET /api/latest
+```
+
+### Get all-India timeline information
+```bash
+GET /api/timeline
+```
+
+### Get all states count
+```bash
+GET /api/states
+```
+
+### Get specific state-wise details
+```bash
+GET /api/states/<your_state_name>
+```
+
 ## Building and running from source
 
 ```bash
